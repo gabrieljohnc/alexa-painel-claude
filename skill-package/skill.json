@@ -8,48 +8,18 @@
           "description": "Abre no navegador do Echo Show o painel com o consumo da assinatura do Claude.",
           "examplePhrases": [
             "Alexa, abrir painel do claude"
-          ],
-          "keywords": []
+          ]
         }
       },
-      "isAvailableWorldwide": false,
-      "distributionCountries": [
-        "BR"
-      ],
+      "isAvailableWorldwide": true,
       "testingInstructions": "Uso pessoal.",
-      "category": "PRODUCTIVITY"
+      "category": "ORGANIZERS_AND_ASSISTANTS"
     },
     "apis": {
       "custom": {
         "interfaces": [
           {
-            "type": "ALEXA_PRESENTATION_APL",
-            "supportedViewports": [
-              {
-                "mode": "HUB",
-                "shape": "RECTANGLE",
-                "minWidth": 1280,
-                "maxWidth": 1920,
-                "minHeight": 800,
-                "maxHeight": 1279
-              },
-              {
-                "mode": "HUB",
-                "shape": "RECTANGLE",
-                "minWidth": 960,
-                "maxWidth": 1279,
-                "minHeight": 600,
-                "maxHeight": 959
-              },
-              {
-                "mode": "HUB",
-                "shape": "ROUND",
-                "minWidth": 480,
-                "maxWidth": 959,
-                "minHeight": 480,
-                "maxHeight": 959
-              }
-            ]
+            "type": "ALEXA_PRESENTATION_APL"
           }
         ]
       }
