@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "painel do claude",
+      "intents": [
+        {
+          "name": "AbrirPainelIntent",
+          "slots": [],
+          "samples": [
+            "abrir",
+            "abrir o painel",
+            "mostrar",
+            "mostrar o painel",
+            "mostrar o consumo",
+            "ver o consumo"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
